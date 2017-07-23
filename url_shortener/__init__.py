@@ -1,0 +1,1 @@
+default_app_config = 'url_shortener.apps.UrlShortenerConfig'
