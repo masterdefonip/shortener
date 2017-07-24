@@ -3,7 +3,7 @@
 {% block content %}
     <p>Utworzony skrót dla adresu URL <strong>{{ object.url }}</strong> to:</p>
     <p>
-        <code><a href="{{ CURRENT_DOMAIN }}/{{ object.get_shortcut_url }}">{{ CURRENT_DOMAIN }}{{ object.get_shortcut_url }}</a></code>
+        <code><a href="{{ object.get_shortcut_url }}">{{ CURRENT_DOMAIN }}{{ object.get_shortcut_url }}</a></code>
     </p>
     <p>
         <a href="{% url 'generate-shortcut' %}" class="btn btn-primary">Utwórz nowy skrót</a>
