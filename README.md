@@ -1,3 +1,3 @@
 # shortener
-Shortener
-test123
+to jest plik readme.
+Opis projektu Shortener
